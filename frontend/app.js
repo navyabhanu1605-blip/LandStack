@@ -20,7 +20,7 @@ import {
 // ==================================================
 
 const SERVER_URL =
-    "http://localhost:5000";
+    "https://landstack-ooxm.onrender.com";
 
 const DEMO_LAND_OWNER_OTP =
     "613824";
@@ -10670,7 +10670,7 @@ async function loadOfficerAuditHistory() {
 
         const response =
             await fetch(
-                "http://localhost:5000/officer/audit-history",
+               "https://landstack-ooxm.onrender.com/officer/audit-history",
                 {
                     method: "GET",
 
